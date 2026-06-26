@@ -1,11 +1,32 @@
-# D2 — Observability Landscape Assessment: Operator Template
+# D2 -- Observability Landscape Assessment: Operator Template
+
+## What this is
+
+This template collects the current state of observability and AIOps across your network domains. We're sending one copy to each participating operator (AT&T, Verizon, Turkcell) and consolidating the returns into an anonymized landscape view for the working group.
+
+## Why we need it
+
+The WG is building a best practice guide and a simulated proof-of-concept for end-to-end observability and AI-driven operations across telco stacks. We can't do either without knowing what's actually deployed today, where the data lives, what's missing, and what hurts.
+
+This template feeds two downstream deliverables directly:
+
+- **D3 (Reference Architecture, due July 2026)** -- needs to know what tools, protocols, and platforms exist today so the architecture reflects reality, not aspiration.
+- **D5 (Simulated PoC, due Aug-Sep 2026)** -- needs statistical profiles and schemas from your telemetry to generate realistic synthetic data. Without this, the PoC runs on made-up numbers.
+
+The data sharing questions in each section are there so we know upfront what you're comfortable contributing. Nobody will be asked to share anything they haven't explicitly opted into.
+
+## How to fill it in
+
+- Each domain section (RAN, Transport, Core, etc.) is self-contained. Route them to the right teams if needed -- the RAN team fills in RAN, the core team fills in core, and so on.
+- Use the provided options where they exist. Free-text fields are marked.
+- Don't wait for perfection. Partial returns with incomplete sections flagged are better than nothing by the deadline.
+
+---
 
 **Operator:** _[Organization Name]_
 **Completed by:** _[Name(s) and Role(s)]_
 **Date:** _[YYYY-MM-DD]_
 **Return deadline:** _[TBD - set in kickoff meeting]_
-
-> Complete one copy per operator organization. Sections are organized by domain, so route each domain section to the appropriate team if needed. Use the provided field options where listed; add free-text only where indicated. Partial returns are fine. Submit what you have by the deadline and flag incomplete sections.
 
 ---
 
